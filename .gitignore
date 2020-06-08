@@ -9,8 +9,4 @@ out
 gen
 .gitignore
 .idea/
-src/main/java/edu/xpu/hcp/creational/
-src/main/java/edu/xpu/hcp/proxy/cglib/
-src/main/java/edu/xpu/hcp/singleton/
-src/main/java/edu/xpu/hcp/structural/
 target/
