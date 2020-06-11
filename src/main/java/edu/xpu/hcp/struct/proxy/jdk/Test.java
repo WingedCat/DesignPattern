@@ -1,4 +1,4 @@
-package edu.xpu.hcp.proxy.jdk;
+package edu.xpu.hcp.struct.proxy.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

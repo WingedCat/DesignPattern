@@ -1,4 +1,4 @@
-package edu.xpu.hcp.proxy.javaassist;
+package edu.xpu.hcp.struct.proxy.javaassist;
 
 public class User {
     private String name;

@@ -1,4 +1,4 @@
-package edu.xpu.hcp.proxy.jdk;
+package edu.xpu.hcp.struct.proxy.jdk;
 
 public class OperationImpl implements Operation{
 

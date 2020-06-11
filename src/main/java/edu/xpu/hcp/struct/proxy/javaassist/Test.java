@@ -1,4 +1,4 @@
-package edu.xpu.hcp.proxy.javaassist;
+package edu.xpu.hcp.struct.proxy.javaassist;
 
 import javassist.ClassPool;
 import javassist.CtClass;
@@ -9,7 +9,7 @@ public class Test {
     public static void main(String[] args) throws Exception{
         ClassPool classPool = ClassPool.getDefault();
         //1、创建类
-        CtClass makeClass = classPool.makeClass("edu.xpu.hcp.proxy.javaassist.User");
+        CtClass makeClass = classPool.makeClass("edu.xpu.hcp.struct.proxy.javaassist.User");
         //2、创建name和age属性
         CtField name = CtField.make("private String name;", makeClass);
         CtField age = CtField.make("private Integer age;", makeClass);
